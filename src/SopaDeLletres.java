@@ -121,6 +121,9 @@ public class SopaDeLletres {
         else
             System.out.print(c);
     }
+    private static void pintarLletra(char c) {
+            System.out.print(c);
+    }
 
     public static String[][] generarSopa (String ponerletras) {
         int positionString = 0;
